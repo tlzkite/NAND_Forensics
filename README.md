@@ -42,7 +42,6 @@ So, highly likely OOB means:
 
 ``Offset 4160 (0x1040) | Entropy: 3.10 | FF Ratio: 0.70 | Score: 1.27 ``**Maybe**
 
-
 * An **entropy below ~ 2.5** is usually *very* promising.
 * An **0xFF ratio above ~0.7** is common for OOB.
 * **Scores above 1.4** are often very solid hits.
@@ -66,4 +65,3 @@ Layouts of 8192 are slower because:
   * Then, once you have a promissing page+OOB combo, **re-run just that one** with `SCAN_STEP = 1` to refine.
 * Limit the scan to one layout
   * If you're mostly interested in one layout, (for example: 2048+64), comment out the others temporarily.
-* 
